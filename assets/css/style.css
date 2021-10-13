@@ -1,0 +1,281 @@
+/* 
+##########################################
+            GENERAL
+##########################################
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face {
+    font-family: Athene;
+    src: url(../fonts/Athene.otf);
+}
+/* 
+    font-family: 'Open Sans', sans-serif;
+    font-family: Athene;  
+*/
+/* 
+Farben:
+#042A5A
+#F4C4C4
+#282B29
+#7D2222
+#DEB873
+#D2D2D2
+#388883
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* 
+##########################################
+            HEADER
+##########################################
+*/
+header {
+    color: #042A5A;
+    background: #EFE8D7;
+    
+}
+nav {
+    /* display: inline-block; */
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #042A5A;
+    position: fixed;
+}
+nav p {
+    font-size: 18px;
+    padding: 1vh 0vw;
+}
+nav div {
+    width: 40%;
+    display:inline-block;
+    text-align: left;
+}
+nav div:last-of-type {
+    text-align: right;
+}
+header section p {
+    font-family: Athene; 
+    font-size: 160px;
+    font-weight: normal;
+    border-bottom: 2px solid #042A5A;
+}
+header section {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+header section article {
+    margin: 10vh 0 15vh 0;
+    display: inline-block;
+}
+header section article img {
+    width: 30vw;
+}
+header section article p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align:left;
+    border: none;
+    margin: 2vh 0;
+}
+header section article p span {
+    font-family: Athene;  
+    font-size: 24px;
+}
+/* 
+##########################################
+            MAIN
+##########################################
+*/
+main section:first-of-type {
+    background: #F4C4C4;
+    color:#282B29;
+}
+main section:nth-of-type(2) {
+    background:#DEB873;
+    color:#7D2222;
+    padding-bottom: 10vh;
+}
+main section article h2 {
+    font-size: 160px;
+    font-family: Athene; 
+    font-weight:normal;
+    max-width: 550px;
+    word-break: break-all;
+}
+main section article span {
+    font-size: 16px;
+    padding: 7vh 0 7vh 7vw;
+    display: block;
+}
+main section article {
+    width: 100%;
+    text-align: left;
+}
+main section article div p {
+    font-size: 18px;
+}
+main section article:nth-of-type(2) {
+    width: 100%;
+    text-align: right;
+}
+
+main section article:nth-of-type(2) div {
+    width:50%;
+    display:inline-block;
+    text-align: left;
+    padding: 5vw;
+}
+main section article:nth-of-type(2) div:last-of-type {
+    width:55%;
+}
+
+main section article div table {
+    width: 100%;
+    text-align: right;
+}
+main section article div table tr {
+    padding: 1vw;
+}
+main section article div table th, main section article div table td {
+    border-bottom: 1px solid #282B29;
+}
+main section article div table tr td {
+    padding: 1vw 0 1vw 1vw;
+}
+main section article div table tr td:last-of-type {
+    width: 20%;
+}
+main section article div table tr td:first-of-type {
+    width: 20%;
+    text-align:left;
+}
+main section article div table tr td:nth-of-type(2) {
+    width: 60%;
+    text-align:left;
+}
+main section article div img {
+    width: 10vw;
+}
+main section article:nth-of-type(3) div {
+    text-align: right;
+    padding: 5vw;
+}
+main section:nth-of-type(2) span {
+    padding: 7vh 7vh 0 7vw;
+}
+main section:nth-of-type(2) h2 {
+    max-width: 550px;
+    word-break: break-all;
+    display: inline-block;
+}
+main section:nth-of-type(2) article {
+    text-align: right;
+    margin: 15vh auto 0 auto;
+}
+main section:nth-of-type(2) article:first-of-type {
+    text-align: right;
+    margin: 0 auto;
+}
+main section:nth-of-type(2) article:nth-of-type(2) {
+    text-align: left;
+}
+main section:nth-of-type(2) article:nth-of-type(3) {
+    background: url("../img/bg-marconatto-1.jpg") right top no-repeat;
+    width:80%;
+    background-size: 60%;
+    padding: 0 0 15% 0;
+    text-align: left;
+}
+h3 {
+    font-family: Athene;  
+    font-size: 64px;
+    max-width: 500px;
+    word-break:keep-all;
+    display: inline-block;
+    font-weight: normal;
+}
+
+main section:nth-of-type(2) article:nth-of-type(4) {
+    background: url("../img/kathe_cover-1.jpg") left top no-repeat;
+    width:80%;
+    background-size: 60%;
+    padding: 0 0 15% 0;
+    text-align: right;
+}
+
+main section:nth-of-type(2) article:nth-of-type(5) {
+    background: url("../img/bg-nicole-1.jpg") right top no-repeat;
+    width:80%;
+    background-size: 60%;
+    padding: 0 0 15% 0;
+    text-align: left;
+}
+
+main section:nth-of-type(2) article:nth-of-type(6) {
+    background: url("../img/boa_cover-1.jpg") left top no-repeat;
+    width:80%;
+    background-size: 60%;
+    padding: 0 0 15% 0;
+    text-align: right;
+}
+/* 
+##########################################
+            FOOTER
+##########################################
+*/
+footer section {
+    background: #D2D2D2;
+    color: #388883;
+}
+
+footer section article h2 {
+    font-size: 160px;
+    font-family: Athene; 
+    font-weight:normal;
+    max-width: 550px;
+    word-break: break-all;
+}
+footer section article span {
+    font-size: 16px;
+    padding: 7vh 0 7vh 7vw;
+    display: block;
+}
+footer section div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer section  p {
+    width: 35%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 24px;
+    line-height: 5vh;
+}
+footer section article ul {
+    list-style: none;
+    text-align: right;
+    padding: 10vh;
+    line-height: 5vh;
+    
+
+}
+footer section article ul li a{
+    font-size: 24px;
+    color: #388883;
+    text-decoration: none;
+}
+footer section article ul li a:hover{
+    text-decoration: underline;
+}
